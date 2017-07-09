@@ -1,0 +1,14 @@
+{
+  "name": "learn-scss",
+  "version": "1.0.0",
+  "description": "Scss course",
+  "scripts": {
+    "start": "node-sass -o css scss"
+  },
+  "keywords": [
+    "scss",
+    "css"
+  ],
+  "author": "Jordan Beziau",
+  "license": "ISC"
+}

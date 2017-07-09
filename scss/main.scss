@@ -1,0 +1,5 @@
+.red { color: red }
+.red-darken { color: darken(red, 20%) }
+
+@import "partial-2";
+@import "partial-1";
