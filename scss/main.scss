@@ -3,3 +3,40 @@
 
 @import "partial-2";
 @import "partial-1";
+
+$blue: blue;
+
+.hulk {
+  padding: 1rem;
+
+  &-container {
+    background: lighten($blue, 35%);
+    transition: all .8s ease;
+    padding: 1rem;
+
+    .description-link {
+      &::after {
+        display: inline-block;
+        content: url('https://avatarfiles.alphacoders.com/586/thumb-58630.jpg');
+        vertical-align: middle;
+        margin-left: 10px;
+      }
+    }
+  }
+  &-container:hover { background: lighten($blue, 10%); }
+
+  &::before {
+    display: block;
+    content: url('http://vignette2.wikia.nocookie.net/avengersalliance/images/b/b5/Avengers.png/revision/latest?cb=20120425005255');
+  }
+
+  img {
+    border: 1px solid red;
+    transition: all .8s ease;
+
+    &:hover {
+      transform: rotate(360deg);
+    }
+  }
+
+}

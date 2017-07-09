@@ -9,3 +9,25 @@
 
 .blue {
   color: yellow; }
+
+.hulk {
+  padding: 1rem; }
+  .hulk-container {
+    background: #b3b3ff;
+    transition: all .8s ease;
+    padding: 1rem; }
+    .hulk-container .description-link::after {
+      display: inline-block;
+      content: url("https://avatarfiles.alphacoders.com/586/thumb-58630.jpg");
+      vertical-align: middle;
+      margin-left: 10px; }
+  .hulk-container:hover {
+    background: #3333ff; }
+  .hulk::before {
+    display: block;
+    content: url("http://vignette2.wikia.nocookie.net/avengersalliance/images/b/b5/Avengers.png/revision/latest?cb=20120425005255"); }
+  .hulk img {
+    border: 1px solid red;
+    transition: all .8s ease; }
+    .hulk img:hover {
+      transform: rotate(360deg); }
