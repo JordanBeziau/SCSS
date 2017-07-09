@@ -1,0 +1,18 @@
+$hulk: hulk-is-powerfull;
+
+.#{$hulk} { content: "#{$hulk}"; }
+
+.#{$hulk}-text { font-size: $font-family-primary; }
+
+.hulk {
+  $color-primary: blue;
+
+  color: $color-primary;
+  border: 1px solid $color-warning;
+}
+
+h1 {
+  font-family: $font-family-primary;
+  font-size: $font-size-h1;
+  color: $color-primary;
+}

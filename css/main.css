@@ -31,3 +31,18 @@
     transition: all .8s ease; }
     .hulk img:hover {
       transform: rotate(360deg); }
+
+.hulk-is-powerfull {
+  content: "hulk-is-powerfull"; }
+
+.hulk-is-powerfull-text {
+  font-size: Roboto, "Open Sans", Helvetica Neue, sans-serif; }
+
+.hulk {
+  color: blue;
+  border: 1px solid #FFB62F; }
+
+h1 {
+  font-family: Roboto, "Open Sans", Helvetica Neue, sans-serif;
+  font-size: 36px;
+  color: #8465D9; }
