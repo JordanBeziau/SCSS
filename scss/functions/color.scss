@@ -1,0 +1,14 @@
+$first-color: darken(blue, 35%);
+$second-color: darken(red, 35%);
+
+.hulk {
+
+  img {
+    transition: all .8s ease;
+    background: linear-gradient($first-color, $second-color);
+
+    &:hover {
+      background: linear-gradient(transparentize($first-color, .2), transparentize($second-color, .5));
+    }
+  }
+}

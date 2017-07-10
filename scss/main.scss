@@ -1,10 +1,12 @@
 .red { color: red }
 .red-darken { color: darken(red, 20%) }
 
-@import "partials/partial-2";
+/* @import "partials/partial-2";
 @import "partials/partial-1";
 
 @import "nested/nested";
 
 @import "variables/variables";
-@import "variables/useVariables";
+@import "variables/useVariables"; */
+
+@import "functions/color";

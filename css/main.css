@@ -4,45 +4,15 @@
 .red-darken {
   color: #990000; }
 
-.blue {
-  color: #b3b3ff; }
+/* @import "partials/partial-2";
+@import "partials/partial-1";
 
-.blue {
-  color: yellow; }
+@import "nested/nested";
 
-.hulk {
-  padding: 1rem; }
-  .hulk-container {
-    background: #b3b3ff;
-    transition: all .8s ease;
-    padding: 1rem; }
-    .hulk-container .description-link::after {
-      display: inline-block;
-      content: url("https://avatarfiles.alphacoders.com/586/thumb-58630.jpg");
-      vertical-align: middle;
-      margin-left: 10px; }
-  .hulk-container:hover {
-    background: #3333ff; }
-  .hulk::before {
-    display: block;
-    content: url("http://vignette2.wikia.nocookie.net/avengersalliance/images/b/b5/Avengers.png/revision/latest?cb=20120425005255"); }
-  .hulk img {
-    border: 1px solid red;
-    transition: all .8s ease; }
-    .hulk img:hover {
-      transform: rotate(360deg); }
-
-.hulk-is-powerfull {
-  content: "hulk-is-powerfull"; }
-
-.hulk-is-powerfull-text {
-  font-size: Roboto, "Open Sans", Helvetica Neue, sans-serif; }
-
-.hulk {
-  color: blue;
-  border: 1px solid #FFB62F; }
-
-h1 {
-  font-family: Roboto, "Open Sans", Helvetica Neue, sans-serif;
-  font-size: 36px;
-  color: #8465D9; }
+@import "variables/variables";
+@import "variables/useVariables"; */
+.hulk img {
+  transition: all .8s ease;
+  background: linear-gradient(#00004d, #4d0000); }
+  .hulk img:hover {
+    background: linear-gradient(rgba(0, 0, 77, 0.8), rgba(77, 0, 0, 0.5)); }
